@@ -5,12 +5,8 @@
 	This example uses a maximum o
 */
 #include "Matrix.h"
-#include <stdlib.h>
-#include <iostream>
 #define MatrixSizeW 5
 #define MatrixSizeH 5
-
-using namespace std;
 
 int main()
 {
@@ -25,9 +21,13 @@ int main()
 	}
 
 	// Print matrixes
-	//cout << "Matrix A: \n" << A;
-	//cout << "Matrix B: \n" << B;
-	//cout << "Matrix C: \n" << A*B;
+	cout << "Matrix A: \n";
+	A << cout;
+	cout << "Matrix B: \n";
+	B << cout;
+	cout << "Matrix A*B: \n";
+	A*B << cout;
 
+	cin >> i;
 	return 0;
 }
